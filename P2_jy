@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta de Presentación - Lex Noctua</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .business-card {
+      width: 350px;
+      height: 200px;
+      background-color: white;
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .company-name {
+      font-weight: bold;
+      font-size: 18px;
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    .info {
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .info .label {
+      font-weight: bold;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+      right: 15px;
+      font-size: 12px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="business-card">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fingerprint_black.svg/1200px-Fingerprint_black.svg.png" alt="Huella dactilar" class="logo">
+      <div class="company-name">Lex Noctua</div>
+    </div>
+
+    <div class="info">
+      <div><span class="label">Nombre:</span> J. Yanes</div>
+      <div><span class="label">Profesión:</span> Gestor Aduanero</div>
+      <div>yanes@example.com</div>
+      <div>+502 5555 5555</div>
+      <div>Petén, Guatemala</div>
+    </div>
+
+    <div class="footer">
+      Tarjeta de presentación oficial
+    </div>
+  </div>
+
+</body>
+</html>
